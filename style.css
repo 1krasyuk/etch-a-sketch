@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Boldonse", system-ui;
+}
+
+#grid-container {
+  display: flex;
+  place-self: center;
+  align-items: center;
+  background-color: #cbcbcb;
+  border: 2px solid #000;
+}
+
+.square {
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #cbcbcb;
+  /* aspect-ratio: 1/1; */
+}
+
+#resize-button,
+#reset-button {
+  display: block;
+  margin: 3vh auto;
+  width: 5vw;
+  height: 5vh;
+}
